@@ -32,7 +32,31 @@ header {
   cursor: pointer;
   transition: 0.8s;
 }
+/* section 1 Area */
+#section-1 {
+    width: 70%;
+    margin: 50px auto;
+}
 
+#section-1 > h1 {
+    font-size: 55px;
+    font-weight: 800;
+    text-shadow: 2px 2px 8px #b17575;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#section-1 > p {
+    width: 60%;
+    margin: 0 auto;
+    color: #706f6f;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#buy-now-btn-container {
+    display: flex;
+    justify-content: center;
+}
 
 
 
