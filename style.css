@@ -135,3 +135,60 @@ header {
     transform: rotate(1turn);
   }
 }
+
+/* card container section */
+
+#card-container-section {
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card-image {
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+.card-image:hover {
+  background-color: #1d335515;
+  transition: 0.8s;
+}
+.card-image img {
+    width: 80%;
+    height: 300px;
+}
+
+.card-title {
+    text-align: center;
+    color: #403f3f;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-description {
+    text-align: center;
+    color: #706f6f;
+    margin-bottom: 10px;
+}
+.card-price {
+    text-align: center;
+    color: #403f3f;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.card-button {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
