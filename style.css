@@ -192,3 +192,14 @@ header {
     display: flex;
     justify-content: center;
 }
+
+/* show all btn section Area */
+#showAll-btn-section {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 50px auto;
+}
+.hidden {
+    display: none;
+}
