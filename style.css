@@ -1,0 +1,40 @@
+
+/* Styling Start */
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(247, 234, 234);
+
+}
+
+/* Header Area */
+header {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background-color: #0d6efd;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.btn:hover {
+  background-color: #18407c;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+
+
+
+
+
